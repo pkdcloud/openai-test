@@ -1,0 +1,7 @@
+version: '3'
+services:
+  openai:
+    image: openai
+    build: .
+    env_file:
+      - .env
