@@ -1,2 +1,5 @@
-# openai-test
-Test Repo for Open AI
+# Open AI Test
+
+```bash
+make generate QUESTION='Is it sunny?'
+```
