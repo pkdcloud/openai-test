@@ -2,7 +2,7 @@
 
 SHELL := /bin/sh
 
-QUESTION ?= "Write python 3 code to deploy a data lake in aws"
+QUESTION ?=
 
 build:
 	docker-compose build openai
