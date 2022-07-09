@@ -2,7 +2,7 @@
 
 SHELL := /bin/sh
 
-QUESTION ?=
+QUESTION ?= "How are you?"
 
 build:
 	docker-compose build openai
